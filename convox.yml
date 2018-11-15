@@ -1,5 +1,5 @@
 services:
   web:
-    domain: ${DOMAIN}
+    domain: ${DOMAIN}, bar.example.org
     image: httpd
     port: 80
